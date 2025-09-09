@@ -1,0 +1,14 @@
+{
+  "/api/text-sources": "/textSources",
+  "/api/text-sources/:id": "/textSources/:id",
+  "/api/text-sources/:id/word-tests": "/wordTests?sourceId=:id",
+  "/api/text-sources/:id/word-tests/:difficulty": "/wordTests?sourceId=:id&difficultyLevel=:difficulty",
+  "/api/word-tests": "/wordTests",
+  "/api/word-tests/:id": "/wordTests/:id",
+  "/api/word-tests/by-source/:sourceId": "/wordTests?sourceId=:sourceId",
+  "/api/word-tests/by-difficulty/:difficulty": "/wordTests?difficultyLevel=:difficulty",
+  "/api/user-progress": "/userProgress",
+  "/api/user-progress/:id": "/userProgress/:id",
+  "/api/user-progress/by-word/:wordId": "/userProgress?wordId=:wordId",
+  "/api/sync/progress": "/userProgress"
+}

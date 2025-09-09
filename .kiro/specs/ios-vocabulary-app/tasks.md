@@ -22,7 +22,7 @@
   - Write unit tests for Core Data operations
   - _Requirements: 4.1, 4.3, 7.1, 7.2_
 
-- [ ] 4. Set up json-server for mock API development
+- [x] 4. Set up json-server for mock API development
   - Install json-server and create db.json with sample data structure
   - Configure mock data for text sources, word tests, and user progress
   - Add sample vocabulary data with different difficulty levels and contextual sentences

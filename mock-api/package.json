@@ -1,0 +1,20 @@
+{
+  "name": "vocabulary-app-mock-api",
+  "version": "1.0.0",
+  "description": "Mock API server for iOS Vocabulary Learning App development",
+  "main": "server.js",
+  "scripts": {
+    "start": "npx json-server --watch db.json --routes routes.json --port 3000 --host 0.0.0.0 --middlewares ./middleware.js",
+    "dev": "npx json-server --watch db.json --routes routes.json --port 3000 --host 0.0.0.0 --middlewares ./middleware.js --delay 500",
+    "test": "node test-endpoints.js"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  },
+  "keywords": [
+    "mock-api",
+    "json-server",
+    "vocabulary",
+    "ios"
+  ]
+}

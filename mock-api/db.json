@@ -1,0 +1,171 @@
+{
+  "textSources": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440001",
+      "title": "The Great Gatsby - Chapter 1",
+      "content": "In my younger and more vulnerable years my father gave me some advice that I've carried with me ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this world haven't had the advantages that you've had.' He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that.",
+      "uploadDate": "2024-01-15T10:30:00Z",
+      "wordCount": 156,
+      "processedDate": "2024-01-15T10:35:00Z",
+      "isProcessed": true
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440002",
+      "title": "Scientific Article - Climate Change",
+      "content": "Climate change represents one of the most significant challenges facing humanity in the 21st century. The phenomenon encompasses long-term shifts in global temperatures and weather patterns, primarily driven by anthropogenic activities such as fossil fuel combustion and deforestation. These activities increase atmospheric concentrations of greenhouse gases, particularly carbon dioxide, methane, and nitrous oxide.",
+      "uploadDate": "2024-01-16T14:20:00Z",
+      "wordCount": 203,
+      "processedDate": "2024-01-16T14:25:00Z",
+      "isProcessed": true
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440003",
+      "title": "Business Article - Entrepreneurship",
+      "content": "Entrepreneurship is the process of designing, launching and running a new business, which is often initially a small business. The people who create these businesses are called entrepreneurs. Entrepreneurship has been described as the capacity and willingness to develop, organize and manage a business venture along with any of its risks in order to make a profit.",
+      "uploadDate": "2024-01-17T09:15:00Z",
+      "wordCount": 178,
+      "processedDate": null,
+      "isProcessed": false
+    }
+  ],
+  "wordTests": [
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440001",
+      "word": "vulnerable",
+      "sentence": "In my younger and more vulnerable years my father gave me some advice that I've carried with me ever since.",
+      "meaning": "exposed to the possibility of being attacked or harmed, either physically or emotionally",
+      "difficultyLevel": "intermediate",
+      "sourceId": "550e8400-e29b-41d4-a716-446655440001"
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440002",
+      "word": "criticizing",
+      "sentence": "Whenever you feel like criticizing anyone, he told me, just remember that all the people in this world haven't had the advantages that you've had.",
+      "meaning": "indicating the faults of someone or something in a disapproving way",
+      "difficultyLevel": "beginner",
+      "sourceId": "550e8400-e29b-41d4-a716-446655440001"
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440003",
+      "word": "advantages",
+      "sentence": "Just remember that all the people in this world haven't had the advantages that you've had.",
+      "meaning": "a condition or circumstance that puts one in a favorable or superior position",
+      "difficultyLevel": "beginner",
+      "sourceId": "550e8400-e29b-41d4-a716-446655440001"
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440004",
+      "word": "communicative",
+      "sentence": "We've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that.",
+      "meaning": "willing, eager, or able to talk or impart information",
+      "difficultyLevel": "intermediate",
+      "sourceId": "550e8400-e29b-41d4-a716-446655440001"
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440005",
+      "word": "reserved",
+      "sentence": "We've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that.",
+      "meaning": "slow to reveal emotion or opinions; keeping one's feelings or thoughts to oneself",
+      "difficultyLevel": "intermediate",
+      "sourceId": "550e8400-e29b-41d4-a716-446655440001"
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440006",
+      "word": "phenomenon",
+      "sentence": "The phenomenon encompasses long-term shifts in global temperatures and weather patterns, primarily driven by anthropogenic activities.",
+      "meaning": "a fact or situation that is observed to exist or happen, especially one whose cause is in question",
+      "difficultyLevel": "advanced",
+      "sourceId": "550e8400-e29b-41d4-a716-446655440002"
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440007",
+      "word": "encompasses",
+      "sentence": "The phenomenon encompasses long-term shifts in global temperatures and weather patterns.",
+      "meaning": "surround and have or hold within; include comprehensively",
+      "difficultyLevel": "advanced",
+      "sourceId": "550e8400-e29b-41d4-a716-446655440002"
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440008",
+      "word": "anthropogenic",
+      "sentence": "The phenomenon encompasses long-term shifts in global temperatures and weather patterns, primarily driven by anthropogenic activities.",
+      "meaning": "originating in human activity",
+      "difficultyLevel": "advanced",
+      "sourceId": "550e8400-e29b-41d4-a716-446655440002"
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440009",
+      "word": "combustion",
+      "sentence": "These activities increase atmospheric concentrations of greenhouse gases, particularly carbon dioxide, methane, and nitrous oxide.",
+      "meaning": "the process of burning something",
+      "difficultyLevel": "intermediate",
+      "sourceId": "550e8400-e29b-41d4-a716-446655440002"
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440010",
+      "word": "deforestation",
+      "sentence": "These activities increase atmospheric concentrations of greenhouse gases, particularly from fossil fuel combustion and deforestation.",
+      "meaning": "the action of clearing a wide area of trees",
+      "difficultyLevel": "intermediate",
+      "sourceId": "550e8400-e29b-41d4-a716-446655440002"
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440011",
+      "word": "atmospheric",
+      "sentence": "These activities increase atmospheric concentrations of greenhouse gases.",
+      "meaning": "relating to the atmosphere of the earth",
+      "difficultyLevel": "intermediate",
+      "sourceId": "550e8400-e29b-41d4-a716-446655440002"
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440012",
+      "word": "concentrations",
+      "sentence": "These activities increase atmospheric concentrations of greenhouse gases.",
+      "meaning": "the relative amount of a given substance contained within a solution or in a particular volume of space",
+      "difficultyLevel": "advanced",
+      "sourceId": "550e8400-e29b-41d4-a716-446655440002"
+    }
+  ],
+  "userProgress": [
+    {
+      "id": "770e8400-e29b-41d4-a716-446655440001",
+      "wordId": "660e8400-e29b-41d4-a716-446655440001",
+      "isMemorized": true,
+      "reviewCount": 3,
+      "lastReviewed": "2024-01-20T15:30:00Z",
+      "isSynced": true
+    },
+    {
+      "id": "770e8400-e29b-41d4-a716-446655440002",
+      "wordId": "660e8400-e29b-41d4-a716-446655440002",
+      "isMemorized": true,
+      "reviewCount": 2,
+      "lastReviewed": "2024-01-20T15:32:00Z",
+      "isSynced": true
+    },
+    {
+      "id": "770e8400-e29b-41d4-a716-446655440003",
+      "wordId": "660e8400-e29b-41d4-a716-446655440003",
+      "isMemorized": false,
+      "reviewCount": 1,
+      "lastReviewed": "2024-01-20T15:35:00Z",
+      "isSynced": true
+    },
+    {
+      "id": "770e8400-e29b-41d4-a716-446655440004",
+      "wordId": "660e8400-e29b-41d4-a716-446655440004",
+      "isMemorized": false,
+      "reviewCount": 2,
+      "lastReviewed": "2024-01-20T15:40:00Z",
+      "isSynced": false
+    },
+    {
+      "id": "770e8400-e29b-41d4-a716-446655440005",
+      "wordId": "660e8400-e29b-41d4-a716-446655440005",
+      "isMemorized": true,
+      "reviewCount": 1,
+      "lastReviewed": "2024-01-20T15:42:00Z",
+      "isSynced": true
+    }
+  ]
+}
