@@ -35,6 +35,7 @@
 		A100001F294A0000000000001 /* TextSourceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001E294A0000000000001 /* TextSourceRepository.swift */; };
 		A1000020294A0000000000001 /* WordTestRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001F294A0000000000001 /* WordTestRepository.swift */; };
 		A1000021294A0000000000001 /* UserProgressRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000020294A0000000000001 /* UserProgressRepository.swift */; };
+		A1000022294A0000000000001 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000021294A0000000000001 /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		A100001E294A0000000000001 /* TextSourceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSourceRepository.swift; sourceTree = "<group>"; };
 		A100001F294A0000000000001 /* WordTestRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordTestRepository.swift; sourceTree = "<group>"; };
 		A1000020294A0000000000001 /* UserProgressRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProgressRepository.swift; sourceTree = "<group>"; };
+		A1000021294A0000000000001 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				A1000016294A0000000000001 /* APIServiceProtocol.swift */,
+				A1000021294A0000000000001 /* APIService.swift */,
 				A1000017294A0000000000001 /* StorageServiceProtocol.swift */,
 				A1000018294A0000000000001 /* ProgressTrackingServiceProtocol.swift */,
 			);
@@ -299,6 +302,7 @@
 				A100001F294A0000000000001 /* TextSourceRepository.swift in Sources */,
 				A1000020294A0000000000001 /* WordTestRepository.swift in Sources */,
 				A1000021294A0000000000001 /* UserProgressRepository.swift in Sources */,
+				A1000022294A0000000000001 /* APIService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
