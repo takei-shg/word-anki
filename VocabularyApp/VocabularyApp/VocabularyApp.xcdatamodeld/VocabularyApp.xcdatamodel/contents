@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22225" systemVersion="23A344" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="TextSourceEntity" representedClassName="TextSourceEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="content" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isProcessed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="processedDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="uploadDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="wordCount" optional="YES" attributeType="Integer 32" defaultValue="0" usesScalarValueType="YES"/>
+        <relationship name="wordTests" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="WordTestEntity" inverseName="source" inverseEntity="WordTestEntity"/>
+    </entity>
+    <entity name="UserProgressEntity" representedClassName="UserProgressEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isMemorized" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isSynced" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="lastReviewed" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="reviewCount" optional="YES" attributeType="Integer 32" defaultValue="0" usesScalarValueType="YES"/>
+        <attribute name="wordId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="WordTestEntity" representedClassName="WordTestEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="createdDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="difficultyLevel" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isDownloaded" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="meaning" optional="YES" attributeType="String"/>
+        <attribute name="sentence" optional="YES" attributeType="String"/>
+        <attribute name="sourceId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="word" optional="YES" attributeType="String"/>
+        <relationship name="source" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TextSourceEntity" inverseName="wordTests" inverseEntity="TextSourceEntity"/>
+    </entity>
+</model>
