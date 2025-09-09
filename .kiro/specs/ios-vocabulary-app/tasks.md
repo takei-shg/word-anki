@@ -7,7 +7,7 @@
   - Set up folder structure following MVVM architecture
   - _Requirements: All requirements need proper project foundation_
 
-- [ ] 2. Implement core data models and protocols
+- [x] 2. Implement core data models and protocols
   - Create Codable models for WordTest, TextSource, UserProgress, and DifficultyLevel
   - Define protocol interfaces for APIService, StorageService, and ProgressTrackingService
   - Implement Core Data entities and relationships
