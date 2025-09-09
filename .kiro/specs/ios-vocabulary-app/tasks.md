@@ -14,7 +14,7 @@
   - Create model validation and transformation utilities
   - _Requirements: 1.1, 2.1, 3.1, 4.1, 6.1_
 
-- [ ] 3. Build Core Data persistence layer
+- [x] 3. Build Core Data persistence layer
   - Implement Core Data stack with persistent container setup
   - Create repository classes for WordTest, TextSource, and UserProgress entities
   - Implement CRUD operations with proper error handling

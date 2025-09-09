@@ -31,6 +31,10 @@
 		A100001B294A0000000000001 /* ModelTransformers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001A294A0000000000001 /* ModelTransformers.swift */; };
 		A100001C294A0000000000001 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001B294A0000000000001 /* APIModels.swift */; };
 		A100001D294A0000000000001 /* ModelUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001C294A0000000000001 /* ModelUtilities.swift */; };
+		A100001E294A0000000000001 /* RepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001D294A0000000000001 /* RepositoryProtocol.swift */; };
+		A100001F294A0000000000001 /* TextSourceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001E294A0000000000001 /* TextSourceRepository.swift */; };
+		A1000020294A0000000000001 /* WordTestRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001F294A0000000000001 /* WordTestRepository.swift */; };
+		A1000021294A0000000000001 /* UserProgressRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000020294A0000000000001 /* UserProgressRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +63,10 @@
 		A100001A294A0000000000001 /* ModelTransformers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTransformers.swift; sourceTree = "<group>"; };
 		A100001B294A0000000000001 /* APIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
 		A100001C294A0000000000001 /* ModelUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelUtilities.swift; sourceTree = "<group>"; };
+		A100001D294A0000000000001 /* RepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryProtocol.swift; sourceTree = "<group>"; };
+		A100001E294A0000000000001 /* TextSourceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSourceRepository.swift; sourceTree = "<group>"; };
+		A100001F294A0000000000001 /* WordTestRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordTestRepository.swift; sourceTree = "<group>"; };
+		A1000020294A0000000000001 /* UserProgressRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProgressRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,7 @@
 				A100001A294A0000000000001 /* ViewModels */,
 				A100001B294A0000000000001 /* Views */,
 				A100001C294A0000000000001 /* Services */,
+				A1000021294A0000000000001 /* Repositories */,
 				A1000004294A0000000000001 /* Assets.xcassets */,
 				A1000008294A0000000000001 /* VocabularyApp.xcdatamodeld */,
 				A1000006294A0000000000001 /* Preview Content */,
@@ -181,6 +190,17 @@
 				A1000007294A0000000000001 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1000021294A0000000000001 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				A100001D294A0000000000001 /* RepositoryProtocol.swift */,
+				A100001E294A0000000000001 /* TextSourceRepository.swift */,
+				A100001F294A0000000000001 /* WordTestRepository.swift */,
+				A1000020294A0000000000001 /* UserProgressRepository.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +295,10 @@
 				A100001B294A0000000000001 /* ModelTransformers.swift in Sources */,
 				A100001C294A0000000000001 /* APIModels.swift in Sources */,
 				A100001D294A0000000000001 /* ModelUtilities.swift in Sources */,
+				A100001E294A0000000000001 /* RepositoryProtocol.swift in Sources */,
+				A100001F294A0000000000001 /* TextSourceRepository.swift in Sources */,
+				A1000020294A0000000000001 /* WordTestRepository.swift in Sources */,
+				A1000021294A0000000000001 /* UserProgressRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
