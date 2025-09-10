@@ -30,7 +30,7 @@
   - Configure CORS and run server on localhost for iOS simulator testing
   - _Requirements: 1.2, 1.3, 2.1, 3.1_
 
-- [ ] 5. Create API service for backend communication
+- [x] 5. Create API service for backend communication
   - Implement APIService class with URLSession for network requests
   - Create methods for uploading text sources and fetching word tests
   - Add progress synchronization endpoints

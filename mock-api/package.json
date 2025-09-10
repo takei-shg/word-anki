@@ -4,8 +4,8 @@
   "description": "Mock API server for iOS Vocabulary Learning App development",
   "main": "server.js",
   "scripts": {
-    "start": "npx json-server --watch db.json --routes routes.json --port 3000 --host 0.0.0.0 --middlewares ./middleware.js",
-    "dev": "npx json-server --watch db.json --routes routes.json --port 3000 --host 0.0.0.0 --middlewares ./middleware.js --delay 500",
+    "start": "npx json-server --watch db.json --routes routes.json --port 3000 --host 127.0.0.1 --middlewares ./middleware.js",
+    "dev": "npx json-server --watch db.json --routes routes.json --port 3000 --host 127.0.0.1 --middlewares ./middleware.js --delay 500",
     "test": "node test-endpoints.js"
   },
   "dependencies": {
