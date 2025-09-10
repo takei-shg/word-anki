@@ -36,6 +36,9 @@
 		A1000020294A0000000000001 /* WordTestRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001F294A0000000000001 /* WordTestRepository.swift */; };
 		A1000021294A0000000000001 /* UserProgressRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000020294A0000000000001 /* UserProgressRepository.swift */; };
 		A1000022294A0000000000001 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000021294A0000000000001 /* APIService.swift */; };
+		A1000023294A0000000000001 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000022294A0000000000001 /* StorageService.swift */; };
+		A1000024294A0000000000001 /* OfflineSyncQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000023294A0000000000001 /* OfflineSyncQueue.swift */; };
+		A1000025294A0000000000001 /* SyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000024294A0000000000001 /* SyncOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +72,9 @@
 		A100001F294A0000000000001 /* WordTestRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordTestRepository.swift; sourceTree = "<group>"; };
 		A1000020294A0000000000001 /* UserProgressRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProgressRepository.swift; sourceTree = "<group>"; };
 		A1000021294A0000000000001 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		A1000022294A0000000000001 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		A1000023294A0000000000001 /* OfflineSyncQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineSyncQueue.swift; sourceTree = "<group>"; };
+		A1000024294A0000000000001 /* SyncOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,7 @@
 				A100000C294A0000000000001 /* TextSource.swift */,
 				A100000D294A0000000000001 /* UserProgress.swift */,
 				A100000E294A0000000000001 /* DifficultyLevel.swift */,
+				A1000024294A0000000000001 /* SyncOperation.swift */,
 				A1000019294A0000000000001 /* ValidationError.swift */,
 				A100001A294A0000000000001 /* ModelTransformers.swift */,
 				A100001B294A0000000000001 /* APIModels.swift */,
@@ -158,6 +165,8 @@
 				A1000016294A0000000000001 /* APIServiceProtocol.swift */,
 				A1000021294A0000000000001 /* APIService.swift */,
 				A1000017294A0000000000001 /* StorageServiceProtocol.swift */,
+				A1000022294A0000000000001 /* StorageService.swift */,
+				A1000023294A0000000000001 /* OfflineSyncQueue.swift */,
 				A1000018294A0000000000001 /* ProgressTrackingServiceProtocol.swift */,
 			);
 			path = Services;
@@ -303,6 +312,9 @@
 				A1000020294A0000000000001 /* WordTestRepository.swift in Sources */,
 				A1000021294A0000000000001 /* UserProgressRepository.swift in Sources */,
 				A1000022294A0000000000001 /* APIService.swift in Sources */,
+				A1000023294A0000000000001 /* StorageService.swift in Sources */,
+				A1000024294A0000000000001 /* OfflineSyncQueue.swift in Sources */,
+				A1000025294A0000000000001 /* SyncOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -142,3 +142,51 @@ extension Array where Element == UserProgress {
         return self.map { UserProgressEntity.create(from: $0, in: context) }
     }
 }
+
+extension SyncOperationEntity {
+    
+    func toModel() -> SyncOperation? {
+        guard let id = id,
+              let typeString = type,
+              let syncType = SyncOperationType(rawValue: typeString),
+              let createdDate = createdDate else {
+            return nil
+        }
+        
+        return SyncOperation(
+            id: id,
+            type: syncType,
+            data: data,
+            relatedId: relatedId,
+            createdDate: createdDate,
+            retryCount: retryCount,
+            isProcessed: isProcessed,
+            processedDate: processedDate,
+            lastRetryDate: lastRetryDate
+        )
+    }
+    
+    func update(from model: SyncOperation) {
+        self.id = model.id
+        self.type = model.type.rawValue
+        self.data = model.data
+        self.relatedId = model.relatedId
+        self.createdDate = model.createdDate
+        self.retryCount = model.retryCount
+        self.isProcessed = model.isProcessed
+        self.processedDate = model.processedDate
+        self.lastRetryDate = model.lastRetryDate
+    }
+    
+    static func create(from model: SyncOperation, in context: NSManagedObjectContext) -> SyncOperationEntity {
+        let entity = SyncOperationEntity(context: context)
+        entity.update(from: model)
+        return entity
+    }
+}
+
+extension Array where Element == SyncOperationEntity {
+    func toModels() -> [SyncOperation] {
+        return self.compactMap { $0.toModel() }
+    }
+}

@@ -18,6 +18,17 @@
         <attribute name="reviewCount" optional="YES" attributeType="Integer 32" defaultValue="0" usesScalarValueType="YES"/>
         <attribute name="wordId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
     </entity>
+    <entity name="SyncOperationEntity" representedClassName="SyncOperationEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="createdDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="data" optional="YES" attributeType="Binary"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isProcessed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="lastRetryDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="processedDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="relatedId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="retryCount" optional="YES" attributeType="Integer 32" defaultValue="0" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
     <entity name="WordTestEntity" representedClassName="WordTestEntity" syncable="YES" codeGenerationType="class">
         <attribute name="createdDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="difficultyLevel" optional="YES" attributeType="String"/>
