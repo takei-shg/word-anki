@@ -55,15 +55,15 @@
   - Write unit tests for progress calculations
   - _Requirements: 4.1, 4.2, 4.3_
 
-- [ ] 8. Create main view models for business logic
-- [ ] 8.1 Implement MainViewModel for app-wide state management
+- [x] 8. Create main view models for business logic
+- [x] 8.1 Implement MainViewModel for app-wide state management
   - Create MainViewModel class with ObservableObject protocol
   - Add navigation state management and coordination logic
   - Implement app lifecycle handling and session management
   - Write unit tests for main view model logic
   - _Requirements: 5.1, 5.3_
 
-- [ ] 8.2 Implement TextSourceViewModel for source management
+- [x] 8.2 Implement TextSourceViewModel for source management
   - Create TextSourceViewModel with text upload functionality
   - Add source selection and management capabilities
   - Implement backend communication for text processing
@@ -71,7 +71,7 @@
   - Write unit tests for source management logic
   - _Requirements: 1.1, 1.2, 1.3, 1.4, 6.1, 6.2, 6.3, 6.4_
 
-- [ ] 8.3 Implement WordTestViewModel for study sessions
+- [x] 8.3 Implement WordTestViewModel for study sessions
   - Create WordTestViewModel for managing word test sessions
   - Add current word state management and progression logic
   - Implement difficulty level filtering and word selection
@@ -79,7 +79,7 @@
   - Write unit tests for word test session logic
   - _Requirements: 2.1, 2.2, 2.3, 2.4, 2.5, 3.1, 3.2, 3.3, 3.4_
 
-- [ ] 8.4 Implement ProgressViewModel for statistics display
+- [x] 8.4 Implement ProgressViewModel for statistics display
   - Create ProgressViewModel for tracking and displaying statistics
   - Add session progress and overall progress computation
   - Implement progress data formatting for UI display
