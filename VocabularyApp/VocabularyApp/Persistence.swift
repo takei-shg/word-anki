@@ -27,6 +27,10 @@ enum PersistenceError: Error, LocalizedError {
 class PersistenceController: ObservableObject {
     static let shared = PersistenceController()
     
+    static let inMemory: PersistenceController = {
+        return PersistenceController(inMemory: true)
+    }()
+    
     private let logger = Logger(subsystem: "com.vocabularyapp", category: "persistence")
 
     static var preview: PersistenceController = {
